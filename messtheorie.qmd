@@ -2,18 +2,18 @@
 ## Zuordnungen als Homomorphismus identifizieren
 ```{shinylive-r}
 #| standalone: true
-#| viewerHeight: 600
+#| viewerHeight: 900
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/messung-als-homomorphismus/server-app/app.R")
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/messung-als-homomorphismus/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```
 
 ## Abhängige Variable identifizieren
 ```{shinylive-r}
 #| standalone: true
-#| viewerHeight: 600
+#| viewerHeight: 800
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/av-identifizieren/server-app/app.R")
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-identifizieren/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```
 
@@ -22,16 +22,16 @@ shinyApp(ui = ui, server = server)
 #| standalone: true
 #| viewerHeight: 600
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/av-uv-mov-identifizieren-dag/server-app/app.R")
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-uv-mov-identifizieren-dag/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```
 
 ## Abhängige, Unabhängige und Moderatorvariable in Abstract identifizieren
 ```{shinylive-r}
 #| standalone: true
-#| viewerHeight: 600
+#| viewerHeight: 1000
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/av-uv-mov-identifizieren-text/server-app/app.R")
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-uv-mov-identifizieren-text/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```
 
@@ -40,7 +40,7 @@ shinyApp(ui = ui, server = server)
 #| standalone: true
 #| viewerHeight: 600
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/guetekriterien-einer-messung-erkennen/server-app/app.R")
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/guetekriterien-einer-messung-erkennen/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```
 
@@ -49,7 +49,7 @@ shinyApp(ui = ui, server = server)
 #| standalone: true
 #| viewerHeight: 600
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/inferenzniveau-erkennen/server-app/app.R")
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/inferenzniveau-erkennen/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```
 
@@ -58,7 +58,7 @@ shinyApp(ui = ui, server = server)
 #| standalone: true
 #| viewerHeight: 600
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/itempolaritaet-erkennen/server-app/app.R")
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/itempolaritaet-erkennen/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```
 
@@ -67,7 +67,7 @@ shinyApp(ui = ui, server = server)
 #| standalone: true
 #| viewerHeight: 600
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/skalenniveau-erkennen/server-app/app.R")
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/skalenniveau-erkennen/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```
 
@@ -76,6 +76,6 @@ shinyApp(ui = ui, server = server)
 #| standalone: true
 #| viewerHeight: 600
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/bezugsnormen-erkennen/server-app/app.R")
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/bezugsnormen-erkennen/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```

@@ -2,4 +2,4 @@
 
 Hier finden sich parametrisierte Aufgaben für Einführungsveranstaltungen in die Forschungsmethodik und Statistik.
 
-Alle Materialien sind quelloffen [{{< iconify fa-brands:github >}}](www.github.com) und via {{< iconify bi cc-circle >}} {{< iconify fa-brands:creative-commons-by >}}-Lizenz frei weiterverwendbar.
+Alle Materialien sind quelloffen [{{< iconify fa-brands:github >}}](https://github.com/sammerk/aufgaben-book) und via {{< iconify bi cc-circle >}} {{< iconify fa-brands:creative-commons-by >}}-Lizenz frei verwendbar.

@@ -11,7 +11,7 @@ shinyApp(ui = ui, server = server)
 ## Designs unterscheiden
 ```{shinylive-r}
 #| standalone: true
-#| viewerHeight: 600
+#| viewerHeight: 700
 
 source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/experimentelles-design/server-app/app.R")
 shinyApp(ui = ui, server = server)
@@ -42,7 +42,7 @@ shinyApp(ui = ui, server = server)
 ## Vergleich der methodischen Strenge
 ```{shinylive-r}
 #| standalone: true
-#| viewerHeight: 600
+#| viewerHeight: 1000
 
 source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/methodische-strenge-vergleichen/server-app/app.R")
 shinyApp(ui = ui, server = server)
@@ -52,7 +52,7 @@ shinyApp(ui = ui, server = server)
 ## Steigerung der externen Validitaet
 ```{shinylive-r}
 #| standalone: true
-#| viewerHeight: 600
+#| viewerHeight: 1000
 
 source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/steigerung-externe-validitaet/server-app/app.R")
 shinyApp(ui = ui, server = server)
@@ -62,7 +62,7 @@ shinyApp(ui = ui, server = server)
 ## Steigerung der internen Validitaet
 ```{shinylive-r}
 #| standalone: true
-#| viewerHeight: 600
+#| viewerHeight: 1000
 
 source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/steigerung-interne-validitaet/server-app/app.R")
 shinyApp(ui = ui, server = server)
@@ -71,7 +71,7 @@ shinyApp(ui = ui, server = server)
 ## Verschiedenen Designs interne Validitaet zuordnen
 ```{shinylive-r}
 #| standalone: true
-#| viewerHeight: 600
+#| viewerHeight: 2000
 
 source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/dem-design-interne-validitaet-zuordnen/server-app/app.R")
 shinyApp(ui = ui, server = server)
