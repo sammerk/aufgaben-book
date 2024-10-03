@@ -8,6 +8,24 @@ source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/mes
 shinyApp(ui = ui, server = server)
 ```
 
+## Skalenniveaus erkennen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/skalenniveau-erkennen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Inferenzniveau zuordnen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/inferenzniveau-erkennen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
 ## Abhängige Variable identifizieren
 ```{shinylive-r}
 #| standalone: true
@@ -44,30 +62,12 @@ source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/mes
 shinyApp(ui = ui, server = server)
 ```
 
-## Inferenzniveau zuordnen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/inferenzniveau-erkennen/server-app/app.R")
-shinyApp(ui = ui, server = server)
-```
-
 ## Itempolaritaet zuordnen
 ```{shinylive-r}
 #| standalone: true
 #| viewerHeight: 600
 
 source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/itempolaritaet-erkennen/server-app/app.R")
-shinyApp(ui = ui, server = server)
-```
-
-## Skalenniveaus erkennen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/skalenniveau-erkennen/server-app/app.R")
 shinyApp(ui = ui, server = server)
 ```
 

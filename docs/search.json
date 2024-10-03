@@ -120,41 +120,11 @@
     ]
   },
   {
-    "objectID": "messtheorie.html#abhängige-variable-identifizieren",
-    "href": "messtheorie.html#abhängige-variable-identifizieren",
+    "objectID": "messtheorie.html#skalenniveaus-erkennen",
+    "href": "messtheorie.html#skalenniveaus-erkennen",
     "title": "2  Messtheorie",
-    "section": "2.2 Abhängige Variable identifizieren",
-    "text": "2.2 Abhängige Variable identifizieren\n#| standalone: true\n#| viewerHeight: 800\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-identifizieren/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
-    ]
-  },
-  {
-    "objectID": "messtheorie.html#abhängige-unabhängige-und-moderatorvariable-in-diagramm-identifizieren",
-    "href": "messtheorie.html#abhängige-unabhängige-und-moderatorvariable-in-diagramm-identifizieren",
-    "title": "2  Messtheorie",
-    "section": "2.3 Abhängige, Unabhängige und Moderatorvariable in Diagramm identifizieren",
-    "text": "2.3 Abhängige, Unabhängige und Moderatorvariable in Diagramm identifizieren\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-uv-mov-identifizieren-dag/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
-    ]
-  },
-  {
-    "objectID": "messtheorie.html#abhängige-unabhängige-und-moderatorvariable-in-abstract-identifizieren",
-    "href": "messtheorie.html#abhängige-unabhängige-und-moderatorvariable-in-abstract-identifizieren",
-    "title": "2  Messtheorie",
-    "section": "2.4 Abhängige, Unabhängige und Moderatorvariable in Abstract identifizieren",
-    "text": "2.4 Abhängige, Unabhängige und Moderatorvariable in Abstract identifizieren\n#| standalone: true\n#| viewerHeight: 1000\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-uv-mov-identifizieren-text/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
-    ]
-  },
-  {
-    "objectID": "messtheorie.html#guetekriterien-einer-messung-erkennen",
-    "href": "messtheorie.html#guetekriterien-einer-messung-erkennen",
-    "title": "2  Messtheorie",
-    "section": "2.5 Guetekriterien einer Messung erkennen",
-    "text": "2.5 Guetekriterien einer Messung erkennen\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/guetekriterien-einer-messung-erkennen/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
+    "section": "2.2 Skalenniveaus erkennen",
+    "text": "2.2 Skalenniveaus erkennen\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/skalenniveau-erkennen/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
     ]
@@ -163,8 +133,48 @@
     "objectID": "messtheorie.html#inferenzniveau-zuordnen",
     "href": "messtheorie.html#inferenzniveau-zuordnen",
     "title": "2  Messtheorie",
-    "section": "2.6 Inferenzniveau zuordnen",
-    "text": "2.6 Inferenzniveau zuordnen\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/inferenzniveau-erkennen/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
+    "section": "2.3 Inferenzniveau zuordnen",
+    "text": "2.3 Inferenzniveau zuordnen\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/inferenzniveau-erkennen/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
+    ]
+  },
+  {
+    "objectID": "messtheorie.html#abhängige-variable-identifizieren",
+    "href": "messtheorie.html#abhängige-variable-identifizieren",
+    "title": "2  Messtheorie",
+    "section": "2.4 Abhängige Variable identifizieren",
+    "text": "2.4 Abhängige Variable identifizieren\n#| standalone: true\n#| viewerHeight: 800\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-identifizieren/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
+    ]
+  },
+  {
+    "objectID": "messtheorie.html#abhängige-unabhängige-und-moderatorvariable-in-diagramm-identifizieren",
+    "href": "messtheorie.html#abhängige-unabhängige-und-moderatorvariable-in-diagramm-identifizieren",
+    "title": "2  Messtheorie",
+    "section": "2.5 Abhängige, Unabhängige und Moderatorvariable in Diagramm identifizieren",
+    "text": "2.5 Abhängige, Unabhängige und Moderatorvariable in Diagramm identifizieren\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-uv-mov-identifizieren-dag/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
+    ]
+  },
+  {
+    "objectID": "messtheorie.html#abhängige-unabhängige-und-moderatorvariable-in-abstract-identifizieren",
+    "href": "messtheorie.html#abhängige-unabhängige-und-moderatorvariable-in-abstract-identifizieren",
+    "title": "2  Messtheorie",
+    "section": "2.6 Abhängige, Unabhängige und Moderatorvariable in Abstract identifizieren",
+    "text": "2.6 Abhängige, Unabhängige und Moderatorvariable in Abstract identifizieren\n#| standalone: true\n#| viewerHeight: 1000\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-uv-mov-identifizieren-text/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
+    ]
+  },
+  {
+    "objectID": "messtheorie.html#guetekriterien-einer-messung-erkennen",
+    "href": "messtheorie.html#guetekriterien-einer-messung-erkennen",
+    "title": "2  Messtheorie",
+    "section": "2.7 Guetekriterien einer Messung erkennen",
+    "text": "2.7 Guetekriterien einer Messung erkennen\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/guetekriterien-einer-messung-erkennen/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
     ]
@@ -173,18 +183,8 @@
     "objectID": "messtheorie.html#itempolaritaet-zuordnen",
     "href": "messtheorie.html#itempolaritaet-zuordnen",
     "title": "2  Messtheorie",
-    "section": "2.7 Itempolaritaet zuordnen",
-    "text": "2.7 Itempolaritaet zuordnen\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/itempolaritaet-erkennen/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
-    ]
-  },
-  {
-    "objectID": "messtheorie.html#skalenniveaus-erkennen",
-    "href": "messtheorie.html#skalenniveaus-erkennen",
-    "title": "2  Messtheorie",
-    "section": "2.8 Skalenniveaus erkennen",
-    "text": "2.8 Skalenniveaus erkennen\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/skalenniveau-erkennen/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
+    "section": "2.8 Itempolaritaet zuordnen",
+    "text": "2.8 Itempolaritaet zuordnen\n#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/itempolaritaet-erkennen/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Messtheorie</span>"
     ]
