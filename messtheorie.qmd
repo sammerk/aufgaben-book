@@ -1,0 +1,81 @@
+# Messtheorie
+## Zuordnungen als Homomorphismus identifizieren
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/messung-als-homomorphismus/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Abhängige Variable identifizieren
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/av-identifizieren/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Abhängige, Unabhängige und Moderatorvariable in Diagramm identifizieren
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/av-uv-mov-identifizieren-dag/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Abhängige, Unabhängige und Moderatorvariable in Abstract identifizieren
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/av-uv-mov-identifizieren-text/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Guetekriterien einer Messung erkennen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/guetekriterien-einer-messung-erkennen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Inferenzniveau zuordnen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/inferenzniveau-erkennen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Itempolaritaet zuordnen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/itempolaritaet-erkennen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Skalenniveaus erkennen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/skalenniveau-erkennen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Bezugsnormen in Aussagen erkennen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/bezugsnormen-erkennen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```

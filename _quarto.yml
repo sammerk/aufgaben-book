@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: docs
+book:
+  title: Aufgabensammlung
+  subtitle: Forschungsmethoden & Statistik
+  search: false
+  author: 
+  - name: Samuel Merk
+    orcid: 0000-0003-2594-5337
+  - name: Carolin Baumann
+  - name: Cora Parrisius
+    orcid: 0000-0003-1277-6028
+  date: today
+  chapters:
+  - index.qmd
+  - methodologie.qmd
+  - messtheorie.qmd
+  # - verteilungen.qmd
+  # - gruppenunterschiede.qmd
+  # - korrelationen.qmd
+  # - inferenzstatistik.qmd
+  # - kreuztabellen.qmd
+  # - qualitative-methoden.qmd
+  sidebar: 
+    logo: img/ph-logo.svg
+    
+bibliography: references.bib
+csl: apa.csl
+
+format:
+  html:
+    theme: flatly
+    grid:
+      sidebar-width: 230px
+      body-width: 1100px
+      margin-width: 200px    
+    
+lang: de
+
+lightbox: true
+
+filters: 
+  - shinylive

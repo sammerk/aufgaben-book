@@ -1,0 +1,78 @@
+# Methodologie
+## Erkenntnisinteresse erkennen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/erkenntnisinteresse/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Designs unterscheiden
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/experimentelles-design/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Gütekriterien wissenschaftlicher Erkenntnisse erkennen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/guetekriterium-wissenschaftlicher-erkenntnis-erkennen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+
+## Aussagen zu Gütekriterien
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/guetekriterien-gemischt-mc/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+
+
+
+## Vergleich der methodischen Strenge
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/methodische-strenge-vergleichen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+
+## Steigerung der externen Validitaet
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/steigerung-externe-validitaet/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+
+## Steigerung der internen Validitaet
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/steigerung-interne-validitaet/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
+
+## Verschiedenen Designs interne Validitaet zuordnen
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+
+source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/dem-design-interne-validitaet-zuordnen/server-app/app.R")
+shinyApp(ui = ui, server = server)
+```
