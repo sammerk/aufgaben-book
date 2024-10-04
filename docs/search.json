@@ -20,8 +20,8 @@
     ]
   },
   {
-    "objectID": "methodologie.html#sec-gwe",
-    "href": "methodologie.html#sec-gwe",
+    "objectID": "methodologie.html#gütekriterien-wissenschaftlicher-erkenntnisse-erkennen",
+    "href": "methodologie.html#gütekriterien-wissenschaftlicher-erkenntnisse-erkennen",
     "title": "1  Methodologie",
     "section": "",
     "text": "#| standalone: true\n#| viewerHeight: 600\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/guetekriterium-wissenschaftlicher-erkenntnis-erkennen/server-app/app.R\")\nshinyApp(ui = ui, server = server)",
@@ -70,8 +70,8 @@
     ]
   },
   {
-    "objectID": "methodologie.html#sec-sdev",
-    "href": "methodologie.html#sec-sdev",
+    "objectID": "methodologie.html#steigerung-der-externen-validitaet",
+    "href": "methodologie.html#steigerung-der-externen-validitaet",
     "title": "1  Methodologie",
     "section": "1.6 Steigerung der externen Validitaet",
     "text": "1.6 Steigerung der externen Validitaet\n#| standalone: true\n#| viewerHeight: 1000\n\nsource(\"https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/steigerung-externe-validitaet/server-app/app.R\")\nshinyApp(ui = ui, server = server)",

@@ -1,5 +1,5 @@
 # Methodologie
-## Gütekriterien wissenschaftlicher Erkenntnisse erkennen {#sec-gwe}
+## Gütekriterien wissenschaftlicher Erkenntnisse erkennen
 ```{shinylive-r}
 #| standalone: true
 #| viewerHeight: 600
@@ -49,7 +49,7 @@ shinyApp(ui = ui, server = server)
 ```
 
 
-## Steigerung der externen Validitaet  {#sec-sdev}
+## Steigerung der externen Validitaet
 ```{shinylive-r}
 #| standalone: true
 #| viewerHeight: 1000
