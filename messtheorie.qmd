@@ -1,81 +1,76 @@
 # Messtheorie
 ## Zuordnungen als Homomorphismus identifizieren
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 900
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/messung-als-homomorphismus/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz1, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+library(exams2forms)
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/messung-als-homomorphismus/exams/messung-als-homomorphismus-geschlecht.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
 
-## Skalenniveaus erkennen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
+```{r quiz2, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/messung-als-homomorphismus/exams/messung-als-homomorphismus-grundschulempfehlung.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
+```
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/skalenniveau-erkennen/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz3, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/messung-als-homomorphismus/exams/messung-als-homomorphismus-klausurleistung.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
+```
+
+
+## Skalenniveaus erkennen
+```{r quiz4, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/skalenniveau-erkennen/exams/skalenniveau-erkennen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
 
 ## Inferenzniveau zuordnen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/inferenzniveau-erkennen/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz5, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/inferenzniveau-erkennen/exams/inferenzniveau-erkennen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
 
 ## Abhängige Variable identifizieren
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 800
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-identifizieren/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz6, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-identifizieren/exams/av-identifizieren.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
 
-## Abhängige, Unabhängige und Moderatorvariable in Diagramm identifizieren
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-uv-mov-identifizieren-dag/server-app/app.R")
-shinyApp(ui = ui, server = server)
-```
 
 ## Abhängige, Unabhängige und Moderatorvariable in Abstract identifizieren
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 1000
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-uv-mov-identifizieren-text/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz8, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/av-uv-mov-identifizieren-text/exams/av-uv-mov-identifizieren-text.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
+
 
 ## Guetekriterien einer Messung erkennen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/guetekriterien-einer-messung-erkennen/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz9, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/guetekriterien-einer-messung-erkennen/exams/guetekriterien-einer-messung-erkennen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
+
 
 ## Itempolaritaet zuordnen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/itempolaritaet-erkennen/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz10, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/itempolaritaet-erkennen/exams/itempolaritaet-erkennen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
+
 
 ## Bezugsnormen in Aussagen erkennen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/bezugsnormen-erkennen/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz11, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/bezugsnormen-erkennen/exams/bezugsnormen-erkennen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
+

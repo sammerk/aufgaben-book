@@ -1,78 +1,64 @@
 # Methodologie
 ## Gütekriterien wissenschaftlicher Erkenntnisse erkennen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/guetekriterium-wissenschaftlicher-erkenntnis-erkennen/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+library(exams2forms)
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/guetekriterium-wissenschaftlicher-erkenntnis-erkennen/exams/guetekriterium-wissenschaftlicher-erkenntnis-erkennen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
 
 
 ## Erkenntnisinteresse erkennen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/erkenntnisinteresse/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz2, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/erkenntnisinteresse/exams/Deskriptive_Explorative_Explanative_Studien_r.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
+
 
 ## Designs unterscheiden
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 700
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/experimentelles-design/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz3, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/experimentelles-design/exams/Exp_Quasiexp_Nichtexp_Studien_r.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
+
 
 ## Aussagen zu Gütekriterien
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 600
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/guetekriterien-gemischt-mc/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz4, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/guetekriterien-gemischt-mc/exams/guetekriterien-gemischt-mc.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
-
-
 
 
 ## Vergleich der methodischen Strenge
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 1000
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/methodische-strenge-vergleichen/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz5, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/methodische-strenge-vergleichen/exams/methodische-strenge-vergleichen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
 
 
 ## Steigerung der externen Validitaet
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 1000
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/steigerung-externe-validitaet/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz6, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/steigerung-externe-validitaet/exams/steigerung-externe-validitaet.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
 
 
 ## Steigerung der internen Validitaet
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 1000
-
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/steigerung-interne-validitaet/server-app/app.R")
-shinyApp(ui = ui, server = server)
+```{r quiz7, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/steigerung-interne-validitaet/exams/steigerung-interne-validitaet.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
 
-## Verschiedenen Designs interne Validitaet zuordnen
-```{shinylive-r}
-#| standalone: true
-#| viewerHeight: 2000
 
-source("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/dem-design-interne-validitaet-zuordnen/server-app/app.R")
-shinyApp(ui = ui, server = server)
+## Verschiedenen Designs interne Validitaet zuordnen
+```{r quiz8, echo = FALSE, message = FALSE, results = "asis"}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/methodologie/dem-design-interne-validitaet-zuordnen/exams/dem-design-interne-validitaet-zuordnen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 20)
 ```
