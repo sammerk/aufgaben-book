@@ -59,14 +59,6 @@ exams2forms("tempfile.Rmd", n = 20)
 ```
 
 
-## Itempolaritaet zuordnen
-```{r quiz10, echo = FALSE, message = FALSE, results = "asis"}
-download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/itempolaritaet-erkennen/exams/itempolaritaet-erkennen.Rmd",
-              "tempfile.Rmd")
-exams2forms("tempfile.Rmd", n = 20)
-```
-
-
 ## Bezugsnormen in Aussagen erkennen
 ```{r quiz11, echo = FALSE, message = FALSE, results = "asis"}
 download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/messtheorie/bezugsnormen-erkennen/exams/bezugsnormen-erkennen.Rmd",
