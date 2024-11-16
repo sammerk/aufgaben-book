@@ -1,83 +1,64 @@
-
-```{r, echo=FALSE, results='hide', message=FALSE}
-library(tidyverse)
-library(exams)
-
-# Ind kri oder soz ankreuzen lassen?
-ind_soz_kri <- 
-  sample(c("sozialen",
-           "kriterialen",
-           "individuellen"),
-         1)
-
-# Item universum
-ind <-
-  sample(
-    c(
-      "Bei Schüler:in X hat sich die Leistung von Woche 6 zu 8 verschlechtert.",
-      "Im Test zeigt sich, dass Schüler:in X eine Verbesserung durchlebte, vor allem von Woche 4 zu Woche 6.",
-      "Schüler:in X hat sich verschlechtert.",
-      "Manche Schüler:innen verschlechtern sich und manche Schüler:innen verbessern sich deutlich.",
-      "Einige Schüler:innen verbessern sich.",
-      "Zentrale Ergebnisse hier sind, dass Schüler:in X von Stufe 5 auf Stufe 1 gerutscht ist"
-    ),
-    6
-  )
-      
-soz <-
-  sample(
-    c(
-      "Schüler:in X liegt innerhalb der mittleren 90% der Vergleichsgruppe.",
-      "Die Klasse schneidet sogar besser als Vergleichsgruppe ab.",
-      "Diese Klasse scheint besser abgeschnitten zu haben als die Vergleichsgruppe, beziehend auf die mittleren 50%.",
-      "Einige Schüler:innen sind besser als der Landesdurchschnitt.",
-      "Es gibt einige Schüler:innen, die sind (viel) schlechter als die anderen.",
-      "Es gibt nur wenige Ausreißer von den anderen weg nach unten hin, aber einige davon gravierend.",
-      "Die meisten der Kinder liegen weit über dem Durchschnitt."),
-    7)
-      
-kri <-
-  sample(
-    c("Die große Mehrheit der Schüler:innen befinden sich weit über dem Grundanspruch/Mindeststandard für eine Klasse 9.",
-      "Die meisten Schüler erfüllen den Anspruch oder sind sogar darüber.",
-      "Y kann den text Y in einer Minute fehlerfrei abschreiben",
-      "Schüler:in X kann chemische Reaktionen von Aggregatszustandsänderungen unterscheiden.",
-      "Schüler:in X kann den Strahlensatz sicher auf Alltagsprobleme anwenden"
-    ),
-    5)
-
-# randomize 4th item
-fourth_item <- sample(c("ind", "kri", "soz"), 1)
-
-answerlist_data <- 
-  tibble(
-    answerlist = c(ind[1], kri[1], soz[1],
-                   ifelse(fourth_item == "ind", ind[2],
-                          ifelse(fourth_item == "kri", kri[2], 
-                                 soz[2]))),
-    exsolution = c("ind", "kri", "soz", fourth_item)
-    )
-  
-
-```
-
-
 Question
 ========
-Welche der folgenden Aussagen können der `r ind_soz_kri` Bezugsnorm zugeordnet werden?
+Markieren Sie im Folgenden wahre Aussagen.
 
-  
-```{r questionlist, echo = FALSE, results='asis'}
+```{r echo = F, results = "asis"}
+library(exams)
+solution <- c(rep(T, 21), rep(F, 16))
+
 answerlist(
-  answerlist_data |> pull(answerlist),
-  markup = "markdown")
+  c(
+    "Cohen's d stellt eine Effektstärke dar.",
+    "Cliff's d stellt eine Effektstärke dar.",
+    "Cohen's d kann den Mittelwertsunterschied zweier normalverteilter Variablen beschreiben.",
+    "Cohen's U₃ stellt eine Effektstärke dar.",
+    "Cohen's U₃ kann den Mittelwertsunterschied zweier normalverteilter Variablen beschreiben.",
+    "Cohen's U₃ kann theoretisch Werte zwischen 0 und 1 annehmen (0 ≤ U₃ ≤ 1).",
+    "Cohen's U₃ stellt einen Nulleffekt dar, wenn U₃ = .5 gilt.",
+    "Cohen's U₃ stellt einen umso stärkeren Effekt dar, »je weiter U₃ von der .5 entfernt ist«.",
+    "Cohen's U₁ stellt eine Effektstärke dar.",
+    "Cohen's U₁ kann den Mittelwertsunterschied zweier normalverteilter Variablen beschreiben.",
+    "Cohen's U₁ kann theoretisch Werte zwischen 0 und 1 annehmen (0 ≤ U₁ ≤ 1).",
+    "Cohen's U₁ stellt einen Nulleffekt dar, wenn U₁ = 0 gilt.",
+    "Cohen's U₁ stellt einen umso stärkeren Effekt dar, »je weiter U₁ von der 0 entfernt ist«.",
+    "Cliff's d kann den Unterschied in der zentralen Tendenz zweier intervallskalierter Variablen beschreiben.",
+    "Cliff's d kann den Unterschied in der zentralen Tendenz zweier ordinaler Variablen beschreiben.",
+    "Cohen's d kann theoretisch Werte zwischen -∞ und ∞ annehmen (-∞ < d < ∞).",
+    "Cliff's d kann theoretisch Werte zwischen -1 und 1 annehmen (-1 ≤ d ≤ 1).",
+    "Cohen's d stellt einen Nulleffekt dar, wenn d = 0 gilt.",
+    "Cohen's d stellt einen umso stärkeren Effekt dar, »je weiter d von der Null entfernt ist«.",
+    "Cliff's d stellt einen Nulleffekt dar, wenn d = 0 gilt.",
+    "Cliff's d stellt einen umso stärkeren Effekt dar, »je weiter d von der 0 entfernt ist«.",
+    # FALSE
+    "Cohen's d kann den Mittelwertsunterschied zweier ordinaler Variablen beschreiben.",
+    "Cohen's U₃ kann die Korrelation zweier normalverteilter Variablen beschreiben.",
+    "Cliff's d kann den Zusammenhang zweier intervallskalierter Variablen beschreiben.",
+    "Cohen's d kann theoretisch nur Werte zwischen -1 und 1 annehmen (-1 < d < 1).",
+    "Cohen's U₃ kann theoretisch Werte zwischen -∞ und ∞ annehmen (-∞ < U₃ < ∞).",
+    "Cliff's d kann theoretisch Werte zwischen -∞ und ∞ annehmen (-∞ < d < ∞).",
+    "Cohen's d stellt einen Nulleffekt dar, wenn d = .5 gilt.",
+    "Cohen's d stellt einen umso stärkeren Effekt dar, »je weiter d von der .5 entfernt ist«.",
+    "Cohen's U₃ stellt einen Nulleffekt dar, wenn U₃ = 0 gilt.",
+    "Cohen's U₃ stellt einen umso stärkeren Effekt dar, »je weiter U₃ von der 0 entfernt ist«.",
+    "Cliff's d stellt einen Nulleffekt dar, wenn d = .5 gilt.",
+    "Cliff's d stellt einen umso stärkeren Effekt dar, »je weiter d von der .5 entfernt ist«.",
+    "Cohen's U₁ kann den Mittelwertsunterschied zweier ordinaler Variablen beschreiben.",
+    "Cohen's U₁ kann theoretisch Werte zwischen -∞ und ∞ annehmen (-∞ ≤ U₁ ≤ ∞).",
+    "Cohen's U₁ stellt einen Nulleffekt dar, wenn U₁ = 0.5 gilt.",
+    "Cohen's U₁ stellt einen umso stärkeren Effekt dar, »je weiter U₁ von der 1 entfernt ist«."),
+    markup = "markdown"
+  )
+
 ```
 
+Solution
+========
 
 
 
 Meta-information
 ================
-exname: Bezugsnorm erkennen
+exname: Definitionen d, d, U3, U1
 extype: mchoice
-exsolution: `r mchoice2string(answerlist_data$exsolution == substr(ind_soz_kri, 1, 3))`
+exsolution: `r mchoice2string(solution)`
+exshuffle: 3

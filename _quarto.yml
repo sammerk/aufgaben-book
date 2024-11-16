@@ -16,8 +16,8 @@ book:
   - index.qmd
   - methodologie.qmd
   - messtheorie.qmd
-  # - verteilungen.qmd
-  # - gruppenunterschiede.qmd
+  - verteilungen.qmd
+  - mittelwertsunterschiede.qmd
   # - korrelationen.qmd
   # - inferenzstatistik.qmd
   # - kreuztabellen.qmd
@@ -30,6 +30,7 @@ csl: apa.csl
 
 format:
   html:
+    html-math-method: mathjax
     theme: flatly
     css: css/webex.css
     include-after-body: css/webex.js

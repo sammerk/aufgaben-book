@@ -1,0 +1,86 @@
+# Mittelwertsunterschiede
+## Mittelwertsunterschiede sprachlich bewerten
+```{r diff01, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+library(exams2forms)
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/mittelwertsunterschiede-deskriptiv-lesen/exams/mittelwertsunterschiede-deskriptiv-lesen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+## Cohen's $U_1$
+```{r diff02, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/guessing-u1-sc/exams/guessing-u1-sc.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+```{r diff03, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/guessing-u1/exams/guessing-u1.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+```{r diff04, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/nulleffekt-aus-plots-auswaehlen/exams/nulleffekt-aus-plots-auswaehlen.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+## Cohen's $U_3$
+```{r diff05, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/u3-minimalbeispiel/exams/u3-minimalbeispiel.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+```{r diff06, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/guessing-u3-sc/exams/guessing-u3-sc.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+```{r diff07, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/guessing-u3/exams/guessing-u3.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+## Cohen's $d$
+```{r diff08, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/guessing-cohen-d-sc/exams/guessing-cohen-d-sc.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+```{r diff09, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/guessing-cohen-d/exams/guessing-cohen-d.Rmd",
+              "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+## Cliff's d
+```{r diff10, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/cliff-d-aus-graph-minimalbeispiel/exams/cliff-d-aus-graph-minimalbeispiel.Rmd", "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 5)
+```
+
+```{r diff11, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/cliff-d-minimalbeispiel/exams/cliff-d-minimalbeispiel.Rmd", "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+```{r diff12, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/guessing-cliff-d-sc/exams/guessing-cliff-d-sc.Rmd", "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+```{r diff13, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/guessing-cliff-d/exams/guessing-cliff-d.Rmd", "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
+
+## Cohen's $U_1$, $U_3$, $d$ und Cliff's $d$ im Vergleich
+```{r diff14, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
+download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/definitionen-d-d-u3-u1/exams/definitionen-d-d-u3-u1.Rmd", "tempfile.Rmd")
+exams2forms("tempfile.Rmd", n = 15)
+```
