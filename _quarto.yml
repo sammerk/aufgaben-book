@@ -18,7 +18,7 @@ book:
   - messtheorie.qmd
   - verteilungen.qmd
   - mittelwertsunterschiede.qmd
-  # - korrelationen.qmd
+  - korrelationen.qmd
   # - inferenzstatistik.qmd
   # - kreuztabellen.qmd
   # - qualitative-methoden.qmd
