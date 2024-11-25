@@ -1,53 +1,56 @@
-Question
-========
-Welche Aussagen sind wahr?
-
-```{r echo = F, results = "asis"}
+```{r, echo = FALSE, dev='svglite', message=FALSE, fig.width=8, fig.height=4, fig.cap="", out.width="550px"}
+library(tidyverse)
 library(exams)
 
-answerlist <-  c(
-        # TRUE
-        "Pearson's r stellt eine Effektstärke dar.",
-        "Kendall's 𝜏ᵇ stellt eine Effektstärke dar.",
-        "Kendall's 𝜏ᵇ kann den Zusammenhang zweier ordinaler Variablen beschreiben",
-        "Kendall's 𝜏ᵇ kann den Zusammenhang zweier nicht-normalverteilten intervallskalierter Variablen beschreiben",
-        "Kendall's 𝜏ᵇ kann den Zusammenhang zweier intervallskalierter Variablen beschreiben",
-        "Kendall's 𝜏ᵇ kann theoretisch Werte zwischen -1 und 1 annehmen (-1 ≤ 𝜏ᵇ ≤ 1)",
-        "Pearson's r kann theoretisch Werte zwischen -1 und 1 annehmen (-1 ≤ r ≤ 1)",
-        "Kendall's 𝜏ᵇ stellt einen umso stärkeren Effekt dar, »je weiter 𝜏ᵇ von der Null entfernt ist«",
-        "Kendall's 𝜏ᵇ stellt einen Nulleffekt dar, wenn 𝜏ᵇ = 0 gilt.",
-        "Pearsons's r stellt einen umso stärkeren Effekt dar, »je weiter r von der Null entfernt ist«",
-        "Pearsons's r stellt einen Nulleffekt dar, wenn r = 0 gilt",
-        "Kendall's 𝜏ᵇ stellt einen umso stärkeren Effekt dar, je größer der Betrag von 𝜏ᵇ (|𝜏ᵇ|) ist",
-        "Pearsons's r stellt einen umso stärkeren Effekt dar, je größer der Betrag von r (|r|) ist",
-        "Pearson's r kann den Zusammenhang zweier intervallskalierter Variablen beschreiben",
-        # FALSE
-        "Pearson's r  stellt eine Inferenzstatistik dar.",
-        "Kendall's 𝜏ᵇ stellt eine Inferenzstatistik dar.",
-        "Kendall's 𝜏ᵇ kann den Zusammenhang zweier nominaler Variablen beschreiben",
-        "Kendall's 𝜏ᵇ kann theoretisch Werte zwischen -∞ und ∞ annehmen (-∞ ≤ 𝜏ᵇ ≤ ∞)",
-        "Kendall's r kann theoretisch Werte zwischen -∞ und ∞ annehmen (-∞ ≤ r ≤ ∞)",
-        "Kendall's 𝜏ᵇ stellt einen starken Effekt dar, wenn es positiv ist",
-        "Pearsons's r stellt einen starken Effekt dar, wenn es positiv ist",
-        "Je größer die Stichprobe, desto größer Pearson's r",
-        "Je größer die Stichprobe, desto größer Kendall's 𝜏ᵇ",
-        "Pearson's r kann den Zusammenhang zweier nominaler Variablen beschreiben",
-        "Pearson's r kann den Zusammenhang zweier ordinaler Variablen beschreiben",
-        "Kendall's 𝜏ᵇ stellt einen Nulleffekt dar, wenn 𝜏ᵇ = 0.5 gilt.",
-        "Pearsons's r stellt einen Nulleffekt dar, wenn r = 0.5 gilt")
+answerlist_data <- 
+  tibble(
+    abstract = c("Diese Studie ermittelt wichtige zukünftige Themen im Politikunterricht. Durch iterative, zunächst offener, und dann geschlossener Expertenbefragungen wurden relevante Inhalte wie politische Trends, gesellschaftliche Herausforderungen und innovative Lehrmethoden ermittelt. Die Ergebnisse bieten wertvolle Impulse für die Gestaltung eines zukunftsorientierten Politikunterrichts.",
+                 "Diese Studie nutzt XXXX als qualitative Forschungsmethode, um Einblicke in den Bereich des Peer-Lernens im schulischen Umfeld zu gewinnen. Durch die Analyse von XXXX von Schülerinnen und Schülern wurden wertvolle Erkenntnisse zu sozial geteilten Dynamiken, Erfahrungen und Herausforderungen des gemeinschaftlichen Lernens als Peer-Kultur gewonnen.",
+                 "Diese Studie setzt auf XXXX als qualitative Forschungsmethode, um Erkenntnisse im Bereich der Lehrerfortbildung zu generieren. Durch die Auswertung von XXXX unter Pädagogen wurden im Diskurs dieser sozialen Gruppe zentrale Themen, Bedürfnisse und wirksame Methoden in der beruflichen Weiterbildung identifiziert.",
+                 "Um Einblicke in die Gestaltung zukünftiger Lehrpläne zu gewinnen, wurden Bildungsexperten wiederholt zunächst offen und dann geschlossen zu Einschätzungen von Schlüsselthemen wie curricularen Innovationen, digitalen Lernmethoden und Lehrstrategien befragt. Die Ergebnisse bieten praxisrelevante Perspektiven für die Weiterentwicklung von Lehrplänen und betonen die Effizienz der Delphi-Methode als Instrument qualitativer Sozialforschung im Kontext der Lehrplanentwicklung.",
+                 "Diese Studie setzt auf XXXX als zentrale Methode, um Formen des praktizierten offenen Unterrichts zu gewinnen. Durch N = 284 hochstrukturierte XXXX mit Lehrkräften wurden ermittelt, welche didaktische Formen offenen Unterrichts wie häufig praktiziert werden.",
+                 "Um die Verbreitung der Nutzung von digitalen Tools in Learning Managementsystemen zu untersuchen wurden in N = 474 zufällig ausgesuchten Schulen archivierte Logdaten der dort im Betrieb befindlichen Learning Managementsysteme untersucht.",
+                 "Diese Studie nutzt XXXXX als Schlüsselinstrument, um einen tiefen Einblick in die Entwicklung und Professionalisierung von Lehrkräften zu erhalten. Durch die Analyse von Lebensgeschichten von erfahrenen Pädagogen wurden prägende Erfahrungen, Herausforderungen und persönliche Entwicklungsprozesse herausgearbeitet."),
+    exsolution = c("der Delphimethode",
+                   "Gruppendiskussionen",
+                   "Gruppendiskussionen",
+                   "der Delphimethode",
+                   "Leitfadeninterviews",
+                   "Indirekte Beobachtungen",
+                   "Biografisch-narrative Interviews"
+                   )
+  ) |> 
+  sample_frac(1)
 
-solution <- c(rep(T, 14),
-              rep(F, 13))
+answerlist <-
+  c("Biografisch-narrative Interviews",
+    "Leitfadeninterviews",
+    "Gruppendiskussionen",
+    "der Delphimethode",
+    "Teilnehmende Beobachtungen",
+    "Indirekte Beobachtungen"
+  )
 
-answerlist(answerlist,
-           markup = "markdown")
+
+
 ```
 
+Question
+========
+Welche qualitative Methode der Datenerhebung kam hier zum Einsatz?
+
+> `r answerlist_data$abstract[1]`
+
+```{r echo=FALSE, results='asis'}
+answerlist(
+  answerlist,
+  markup = "markdown"
+)
+```
 
 
 Meta-information
 ================
-exname: Definitionen r taub
-extype: mchoice
-exsolution: `r mchoice2string(solution)`
-exshuffle: 3
+exname: FF vs quali Datenerhebung 
+extype: schoice
+exsolution: `r mchoice2string(answerlist == answerlist_data$exsolution[1])`

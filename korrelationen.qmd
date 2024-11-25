@@ -48,14 +48,6 @@ download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/mas
 exams2forms("tempfile.Rmd", n = 15)
 ```
 
-## Pearson's $r$ in Tabelle erkennen
-```{r corr08, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
-download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/gruppenunterschiede/guessing-cohen-d-sc/exams/guessing-cohen-d-sc.Rmd",
-              "tempfile.Rmd")
-exams2forms("tempfile.Rmd", n = 15)
-```
-
-
 ## Pearson's $r$ als Wahrscheinlichkeit
 ```{r corr09, echo = FALSE, message = FALSE, results = "asis", warning=FALSE}
 download.file("https://raw.githubusercontent.com/sammerk/aufgaben/refs/heads/master/korrelationen/Uebersetzung_r_CLES_einfach_SC/exams/Uebersetzung_r_CLES_einfach_SC.Rmd",

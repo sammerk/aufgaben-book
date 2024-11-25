@@ -19,9 +19,8 @@ book:
   - verteilungen.qmd
   - mittelwertsunterschiede.qmd
   - korrelationen.qmd
-  # - inferenzstatistik.qmd
-  # - kreuztabellen.qmd
-  # - qualitative-methoden.qmd
+  - inferenzstatistik.qmd
+  - qualitative-methoden.qmd
   sidebar: 
     logo: img/ph-logo.svg
     
